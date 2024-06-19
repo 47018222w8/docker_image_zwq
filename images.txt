@@ -5,7 +5,7 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 milvusdb/milvus:v2.4.1
 --platform=linux/arm64 postgres:16
---platform=linux/arm64 mysql:5.7
+--platform=linux/arm64 oilrmutp57/mysql5.7:1.1
 --platform=linux/arm64 python:3.11.0
 --platform=linux/arm64 nginx:1.25.5
 --platform=linux/arm64 openjdk:8-jdk-alpine

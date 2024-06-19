@@ -3,9 +3,9 @@ nginx
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 milvusdb/milvus:v2.4.1
---platform=linux/arm64 postgres:16
---platform=linux/arm64 oilrmutp57/mysql5.7:1.1
---platform=linux/arm64 python:3.11.0
---platform=linux/arm64 nginx:1.25.5
---platform=linux/arm64 openjdk:8-jdk-alpine
+--platform=linux/amd64 milvusdb/milvus:v2.4.1
+--platform=linux/amd64 postgres:16
+--platform=linux/amd64 oilrmutp57/mysql5.7:1.1
+--platform=linux/amd64 python:3.11.0
+--platform=linux/amd64 nginx:1.25.5
+--platform=linux/amd64 openjdk:8-jdk-alpine

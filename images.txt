@@ -9,3 +9,4 @@ xhofe/alist:latest
 --platform=linux/amd64 python:3.11.0
 --platform=linux/amd64 nginx:1.25.5
 --platform=linux/amd64 openjdk:8-jdk-alpine
+--platform=linux/amd64 localai/localai:latest-aio-gpu-nvidia-cuda-12
